@@ -1,7 +1,7 @@
 FROM jenkins/jenkins
 USER root
 #Define variables
-ENV MAVEN_VERSION 3.9.0
+ENV MAVEN_VERSION 3.9.6
 
 #Update Base OS and install additional tools
 RUN apt-get update && apt-get install -y wget
