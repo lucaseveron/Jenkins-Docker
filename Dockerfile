@@ -1,4 +1,4 @@
-FROM jenkins/jenkins
+FROM jenkins/jenkins:latest
 USER root
 #Define variables
 ENV MAVEN_VERSION 3.9.6
